@@ -1,6 +1,6 @@
 import math
 
-with open('d01_p02.txt') as f:
+with open('d01.txt') as f:
     content = f.read()
 module_masses = map(int, list(content.strip().split()))
 

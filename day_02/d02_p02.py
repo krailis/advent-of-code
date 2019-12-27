@@ -26,6 +26,6 @@ def find_pair_product(init_program):
 
 
 if __name__ == '__main__':
-    with open('d02_p02.txt') as f:
+    with open('../d02.txt') as f:
         initial_program = list(map(int, f.read().strip().split(',')))
     print(find_pair_product(initial_program))
