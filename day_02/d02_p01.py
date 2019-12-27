@@ -1,4 +1,4 @@
-with open('../d02.txt') as f:
+with open('d02.txt') as f:
     program = list(map(int, f.read().strip().split(',')))
 
 # Replace before running the program
